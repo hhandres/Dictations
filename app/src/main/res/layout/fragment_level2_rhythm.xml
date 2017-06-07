@@ -1,6 +1,432 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/level2_rhythm_fragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictations.Level2Rhythm">
 
+
+    <TextView
+        android:id="@+id/l2rTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Level 2 Rhythm Dictations"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/l2rScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/l2r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="1. 2/2 Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/l2r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="2. 2/2 Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="3. 3/2 Dotted Halves, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="4. 4/2 Dotted Halves, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="5. 3/2 Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="6. 6/4 Dotted Halves, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/l2r7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="7. 6/4 Dotted Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="8. 9/4 Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="9. 9/4 Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="10. 12/4 Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="11. 2/8 Quarters, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="12. 2/8 Quarters, Dotted Eighths, Eighths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="13. 3/8 Quarters, Eighths, Dotted Sixteenths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="14. 3/8 Eighths, Dotted Sixteenths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="15. 4/8 Quarters, Eighths, Dotted Sixteenths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="16. 6/16 Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="17. 6/16 Dotted Eighths, Eighths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="18. 9/16 Dotted Eighths, Eighths, Dotted Sixteenths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="19. 9/16 Dotted Eighths, Eighths, Dotted Sixteenths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="20. 12/16 Dotted Eighths, Eighths, Dotted Sixteenths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="21. 2/4 Dotted Quarters, Quarters, Eighths, Eighth-note triplets" />
+
+            <Switch
+                android:id="@+id/l2r22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="22. 2/4 Quarters, Eighths, Eighth-note triplets" />
+
+            <Switch
+                android:id="@+id/l2r23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="23. 3/4 Dotted Quarters, Quarters, Eighths, Eighth-note triplets" />
+
+            <Switch
+                android:id="@+id/l2r24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="24. 4/4 Dotted Quarters, Quarters, Dotted Eighths, Eighths, Eighth-note triplets, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="25. 4/2 Halves, Dotted Quarters, Quarters, Quarter-note triplets, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="26. 2/4 Quarters, Eighths, Eighth-note triplets, Sixteenths, Sixteenth-note sextuplets" />
+
+            <Switch
+                android:id="@+id/l2r27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="27. 2/4 Dotted Quarters, Quarters, Eighths, Eighth-note triplets, Sixteenth-note sextuplets" />
+
+            <Switch
+                android:id="@+id/l2r28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="28. 3/4 Quarters, Dotted Eighths, Eighths, Eighth-note triplets, Sixteenths, Sixteenth-note sextuplets" />
+
+            <Switch
+                android:id="@+id/l2r29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="29. 4/4 Quarters, Dotted Eighths, Eighths, Eighth-note triplets, Sixteenths, Sixteenth-note sextuplets" />
+
+            <Switch
+                android:id="@+id/l2r30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="30. 4/2 Wholes, Halves, Dotted Quarters, Quarters, Quarter-note triplets, Eighths, Eighth-note sextuplets" />
+
+            <Switch
+                android:id="@+id/l2r31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="31. 2/4 Dotted Quarters, Quarters, Quarter-note triplets, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="32. 3/4 Halves, Quarters, Quarter-note triplets, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="33. 4/4 Halves, Quarters, Quarter-note triplets, Dotted Eighths, Eighths, Eighth-note triplets, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="34. 3/8 Eighths, Eighth-note triplets, Dotted Sixteenths, Sixteenths, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="35. 2/2 Halves, Half-note triplets, Quarters, Quarter-note triplets, Eighths, Eighth-note sextuplets" />
+
+            <Switch
+                android:id="@+id/l2r36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="36. 6/8 Dotted Quarters, Quarters, Dotted Eighths, Eighths, Eighth-note duplets, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="37. 9/8 Dotted Quarters, Quarters, Dotted Eighths, Eighths, Eighth-note duplets, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="38. 12/8 Dotted Quarters, Quarters, Dotted Eighths, Eighths, Eighth-note duplets, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="39. 6/4 Dotted Halves, Halves, Dotted Quarters, Quarters, Quarter-note duplets, Eighths" />
+
+            <Switch
+                android:id="@+id/l2r40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="40. 9/16 Dotted Eighths, Dotted Sixteenths, Sixteenths, Sixteenth-note duplets, Thirty-seconds" />
+
+            <Switch
+                android:id="@+id/l2r41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="41. 5/8 (2+3 pattern) Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="42. 5/8 (2+3 pattern) Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="43. 5/8 (3+2 pattern) Quarters, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="44. 5/8 (3+2 pattern) Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="45. 5/8 (mixed groupings) Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="46. 7/8 (2+2+3 pattern) Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="47. 7/8 (2+2+3 pattern) Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="48. 7/8 (3+2+2 pattern) Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="49. 7/8 (2+3+2 pattern) Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l2r50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="50. 7/8 (mixed groupings) Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

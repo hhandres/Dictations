@@ -1,0 +1,592 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/level1_melody_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictations2.Level1Melody">
+
+
+    <TextView
+        android:id="@+id/l1mTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Level 1 Melodic Dictations"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/l1mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/l1m1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="1. 2/4 Major, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="2. 2/4 Major, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="3. 3/4 Major, Stepwise, Dotted Halves, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/l1m4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="4. 3/4 Major, Stepwise, Dotted Halves, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="5. 4/4 Major, Leaps, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/l1m6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="6. 4/4 Major, Leaps, Wholes, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="7. 3/4 Major, Stepwise, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="8. 3/4 Major, Leaps, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="9. 2/4 Major, Leaps, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="10. 2/4 Major, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="11. 3/4 Major, Leaps, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="12. 3/4 Major, Outlines Tonic Triad, Dotted Halves, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/l1m13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="13. 4/4 Major, Outlines Tonic Triad, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="14. 4/4 Major, Outlines Tonic Triad, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="15. 3/4 Major, Outlines Tonic Triad, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="16. 3/4 Major, Outlines Tonic Triad, Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="17. 2/4 Major, Outlines Tonic Triad, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="18. 2/4 Major, Leaps, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="19. 3/4 Major, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="20. 4/4 Major, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="21. 4/4 Minor, Stepwise, Wholes, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="22. 4/4 Minor, Leaps, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="23. 3/4 Minor, Leaps, Dotted Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="24. 3/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="25. 2/4 Minor, Leaps, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="26. 2/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="27. 4/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="28. 4/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="29. 2/4 Minor, Leaps, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="30. 2/4 Minor, Leaps, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="31. 3/4 Major, Outlines Tonic Triad, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="32. 3/4 Minor, Outlines Tonic Triad, Dotted Halves, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/l1m33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="33. 4/4 Minor, Outlines Tonic Triad, Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="34. 4/4 Major, Outlines Tonic Triad, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="35. 3/4 Major, Leaps, Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="36. 6/8 Minor, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="37. 6/8 Minor, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="38. 6/8 Major, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="39. 6/8 Major, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="40. 6/8 Minor, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="41. 3/4 Major, Outlines Tonic and Dominant Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="42. 3/4 Minor, Outlines Tonic and Dominant Triads, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="43. 6/8 Major, Outlines Tonic and Dominant Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="44. 6/8 Major, Outlines Tonic and Dominant Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="45. 2/4 Minor, Outlines Tonic and Dominant Triads, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="46. 4/4 Major, Outlines Dominant Triad, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="47. 3/4 Minor, Outlines Tonic Triad, Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="48. 6/8 Minor, Outlines Tonic and Leading Tone Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="49. 6/8 Major, Outlines Tonic and Dominant Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="50. 4/4 Minor, Outlines Tonic and Dominant Triads, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="51. 2/4 Minor, Large Leaps, Outlines Tonic and Dominant Triads, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="52. 3/4 Major, Large Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="53. 4/4 Major, Large Leaps, Outlines Tonic and Dominant Triads, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="54. 6/8 Minor, Large Leaps, Outlines Tonic and Dominant Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="55. 6/8 Major, Large Leaps, Outlines Tonic and Dominant Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="56. 2/4 Minor, Large Leaps, Outlines Tonic Triad, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="57. 3/4 Major, Large Leaps, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="58. 4/4 Major, Large Leaps, Outlines Tonic and Subdominant Triads, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="59. 6/8 Minor, Large Leaps, Outlines Tonic, Subdominant, and Dominant Triads; Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="60. 6/8 Major, Large Leaps, Outlines Tonic and Subdominant Triads, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="61. 2/4 Minor, Outlines Dominant Triad, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="62. 4/4 Major, Outlines Tonic and Subdominant Triads, Halves, Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l1m63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="63. 6/8 Major, Outlines Tonic, Subdominant, and Dominant Triads; Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l1m64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="64. 4/4 Minor, Outlines Tonic and Subdominant Triads, Halves, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="65. 3/4 Major, Outlines Tonic, Subdominant, and Dominant Triads; Halves, Quarters, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l1m66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="66. 6/8 Major, Wide Range, Outlines Tonic Triad, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/l1m67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="67. 6/8 Minor, Outlines Subdominant and Dominant Triads, Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l1m68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="68. 2/4 Major, Outlines Tonic and Subdominant Triads, Halves, Dotted Quarters, Quarters, Dotted Eighths, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l1m69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="69. 4/4 Minor, Outlines Tonic and Dominant Triads, Halves, Quarters, Eighths, Sixteenths" />
+
+            <Switch
+                android:id="@+id/l1m70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="70. 4/4 Major, Outlines Tonic and Subdominant Triads, Dotted Halves, Halves, Dotted Quarters, Quarters, Eighths, Sixteenths" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

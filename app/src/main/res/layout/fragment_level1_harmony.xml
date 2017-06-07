@@ -1,0 +1,472 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/level1_harmony_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictations2.Level1Harmony">
+
+
+    <TextView
+        android:id="@+id/l1hTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Level 1 Harmonic Dictations"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/l1hScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/l1h1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="1. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="2. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="3. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="4. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="5. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="6. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="7. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="8. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="9. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="10. Major, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="11. Major, Tonic, Subdominant" />
+
+            <Switch
+                android:id="@+id/l1h12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="12. Major, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="13. Major, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="14. Major, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="15. Major, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="16. Major, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="17. Major, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="18. Major, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="19. Major, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="20. Major, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="21. Minor, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="22. Minor, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="23. Minor, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="24. Minor, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="25. Minor, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="26. Minor, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="27. Minor, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="28. Minor, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="29. Minor, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="30. Minor, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="31. Minor, Inversions, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="32. Minor, Inversions, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="33. Minor, Inversions, Tonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="34. Minor, Inversions, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="35. Minor, Inversions, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="36. Minor, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="37. Minor, Tonic, Supertonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="38. Minor, Tonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="39. Minor, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="40. Minor, Inversions, Tonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="41. Major, Tonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="42. Major, Inversions, Tonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="43. Major, Inversions, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="44. Major, Tonic, Supertonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="45. Major, Inversions, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l1h46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="46. Major, Tonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l1h47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="47. Minor, Tonic, Supertonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l1h48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="48. Major, Inversions, Tonic, Supertonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l1h49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="49. Minor, Inversions, Tonic, Subdominant, Dominant, Submediant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l1h50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="50. Major, Tonic, Subdominant, Submediant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l1h51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="51. Minor, Inversions, Tonic, Mediant, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="52. Major, Tonic, Mediant, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="53. Minor, Inversions, Tonic, Mediant, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="54. Major, Inversions, Tonic, Mediant, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l1h55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="55. Minor, Tonic, Mediant, Subdominant, Dominant, Submediant" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

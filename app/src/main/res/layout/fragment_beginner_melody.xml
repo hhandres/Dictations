@@ -1,0 +1,352 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/beginner_melody_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictations2.BeginnerMelody">
+
+
+    <TextView
+        android:id="@+id/bmTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Beginner Melodic Dictations"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/bmScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/bm1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="1. 2/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="2. 2/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="3. 2/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="4. 2/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="5. 2/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="6. 3/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="7. 3/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="8. 3/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="9. 4/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="10. 4/4 Major, Stepwise, Halves, Quarters" />
+
+            <Switch
+                android:id="@+id/bm11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="11. 2/4 Major, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="12. 2/4 Major, Leaps, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="13. 2/4 Major, Leaps, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="14. 3/4 Major, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="15. 3/4 Major, Leaps, Dotted Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="16. 3/4 Major, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="17. 4/4 Major, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="18. 4/4 Major, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="19. 6/8 Major, Leaps, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="20. 6/8 Major, Leaps, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="21. 2/4 Minor, Stepwise, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="22. 2/4 Minor, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="23. 2/4 Minor, Stepwise, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="24. 2/4 Minor, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="25. 3/4 Minor, Stepwise, Dotted Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="26. 3/4 Minor, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="27. 3/4 Minor, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="28. 3/4 Minor, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="29. 4/4 Minor, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="30. 4/4 Minor, Stepwise, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="31. 2/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="32. 2/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="33. 2/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="34. 3/4 Minor, Leaps, Dotted Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="35. 3/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="36. 3/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="37. 4/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="38. 4/4 Minor, Leaps, Halves, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="39. 6/8 Minor, Leaps, Dotted Quarters, Quarters, Eighths" />
+
+            <Switch
+                android:id="@+id/bm40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="40. 6/8 Minor, Leaps, Dotted Quarters, Quarters, Eighths" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

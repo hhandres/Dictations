@@ -1,19 +1,10 @@
-package com.example.android.dictations2;
+package com.example.android.dictations;
 
-import android.content.Context;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import static com.example.android.dictations2.R.id.tVCurrentLight;
 
 /**
  * Created by Hoyt on 4/18/2017.

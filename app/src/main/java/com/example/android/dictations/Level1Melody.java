@@ -1,4 +1,4 @@
-package com.example.android.dictations2;
+package com.example.android.dictations;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;

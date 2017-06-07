@@ -1,8 +1,6 @@
-package com.example.android.dictations2;
+package com.example.android.dictations;
 
-import android.content.Context;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,10 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Switch;
 
-import com.example.android.dictations2.R;
-
 import static android.content.Context.MODE_PRIVATE;
-import static com.example.android.dictations2.R.id.br1;
 
 
 public class BeginnerRhythm extends Fragment {

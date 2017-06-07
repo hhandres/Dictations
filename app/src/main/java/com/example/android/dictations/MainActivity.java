@@ -1,8 +1,6 @@
-package com.example.android.dictations2;
+package com.example.android.dictations;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -11,12 +9,6 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Switch;
 import android.widget.Toast;
-
-import static android.R.attr.fragment;
-import static android.R.attr.id;
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
-import static com.example.android.dictations2.R.id.br1;
-import static com.example.android.dictations2.R.id.br2;
 
 public class MainActivity extends AppCompatActivity {
 

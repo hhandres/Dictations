@@ -1,0 +1,352 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/level2_harmony_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictations.Level2Harmony">
+
+
+    <TextView
+        android:id="@+id/l2hTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Level 2 Harmonic Dictations"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/l2hScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/l2h1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="1. Major, Inversions, Tonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="2. Minor, Inversions, Tonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="3. Major, Inversions, Tonic, Subdominant, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="4. Minor, Inversions, Tonic, Supertonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="5. Major, Inversions, Tonic, Supertonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="6. Minor, Inversions, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="7. Major, Tonic, Mediant, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="8. Minor, Inversions, Tonic, Supertonic, Mediant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="9. Major, Inversions, Tonic, Supertonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="10. Minor, Inversions, Tonic, Mediant, Subdominant, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="11. Major, Inversions, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="12. Minor, Inversions, Tonic, Mediant, Subdominant, Dominant, Submediant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="13. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="14. Minor, Inversions, Tonic, Supertonic, Dominant, Submediant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="15. Major, Inversions, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="16. Minor, Inversions, 7th Chords, Tonic, Mediant, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="17. Major, Inversions, 7th Chords, Tonic, Dominant, Submediant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="18. Minor, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="19. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="20. Minor, Inversions, 7th Chords, Tonic, Supertonic, Mediant, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="21. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="22. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="23. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="24. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="25. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="26. Minor, Inversions, 7th Chords, Tonic, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="27. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="28. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="29. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="30. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="31. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="32. Minor, Inversions, 7th Chords, Tonic, Subdominant, Dominant" />
+
+            <Switch
+                android:id="@+id/l2h33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="33. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="34. Minor, 7th Chords, Subtonic, Tonic, Supertonic, Mediant, Subdominant, Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="35. Major, 7th Chords, Tonic, Supertonic, Mediant, Subdominant, Dominant, Submediant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="36. Major, Inversions, 7th Chords, Tonic, Dominant, Secondary Dominant" />
+
+            <Switch
+                android:id="@+id/l2h37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="37. Minor, Inversions, 7th Chords, Tonic, Dominant, Secondary Dominant, Leading Tone" />
+
+            <Switch
+                android:id="@+id/l2h38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="38. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Secondary Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="39. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Secondary Dominant, Submediant" />
+
+            <Switch
+                android:id="@+id/l2h40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="40. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Secondary Dominant" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

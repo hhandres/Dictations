@@ -1,0 +1,351 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/level2_melody_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictations.Level2Melody">
+
+
+    <TextView
+        android:id="@+id/l2mTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Level 2 Melodic Dictations"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/l2mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/l2m1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="1. 2/4 Major: Outlines Tonic, Subdominant, and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="2. 6/8 Major: Outlines Tonic, Supertonic, and Subdominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="3. 3/4 Minor: Outlines Subdominant Triad" />
+
+            <Switch
+                android:id="@+id/l2m4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="4. 6/8 Minor: Outlines Subdominant and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="5. 4/4 Major: Outlines Tonic and Subdominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="6. 6/8 Major: Outlines Tonic, Subdominant, and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="7. 6/8 Minor: Outlines Tonic and Subdominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="8. 3/4 Minor: Outlines Subdominant Triad" />
+
+            <Switch
+                android:id="@+id/l2m9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="9. 4/4 Major: Outlines Tonic, Subdominant, and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="10. 6/8 Minor: Outlines Subdominant and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="11. 3/4 Major: Outlines Dominant 7th and Leading Tone 7th Chords" />
+
+            <Switch
+                android:id="@+id/l2m12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="12. 2/4 Major: Outlines Tonic, Subdominant, and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="13. 6/8 Minor: Outlines Tonic Triad and Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="14. 6/8 Minor: Outlines Leading Tone Triad and Supertonic 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="15. 4/4 Major: Outlines Tonic Triad, Supertonic 7th, and Dominant 7th Chords" />
+
+            <Switch
+                android:id="@+id/l2m16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="16. 3/4 Major: Outlines Leading Tone Triad" />
+
+            <Switch
+                android:id="@+id/l2m17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="17. 6/8 Minor: Outlines Subdominant and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="18. 6/8 Major: Outlines Tonic and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="19. 3/4 Major: Outlines Dominant Triad" />
+
+            <Switch
+                android:id="@+id/l2m20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="20. 2/4 Minor: Outlines Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="21. 6/8 Minor: Outlines Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="22. 3/4 Major: Outlines Tonic and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="23. 4/4 Major: Outlines Dominant 7th Chord as well as Tonic, Subdominant, and Leading Tone Triads" />
+
+            <Switch
+                android:id="@+id/l2m24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="24. 6/8 Minor: Outlines Tonic and Subdominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="25. 6/8 Minor: Outlines Tonic and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="26. 2/4 Major: Outlines Supertonic and Dominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="27. 3/4 Major: Outlines Dominant Triad" />
+
+            <Switch
+                android:id="@+id/l2m28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="28. 6/8 Minor: Outlines Tonic Triad, Supertonic 7th, and Dominant 7th Chords" />
+
+            <Switch
+                android:id="@+id/l2m29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="29. 6/8 Minor: Outlines Dominant 7th Chord as well as Subdominant and Leading Tone Triads" />
+
+            <Switch
+                android:id="@+id/l2m30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="30. 3/4 Major: Outlines Tonic Triad and Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="31. 2/4 Major: Raised Scale Degree 4, Outlines Tonic Triad and Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="32. 6/8 Minor: Raised Scale Degree 4, Outlines Tonic Triad" />
+
+            <Switch
+                android:id="@+id/l2m33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="33. 6/8 Major: Raised Scale Degree 4" />
+
+            <Switch
+                android:id="@+id/l2m34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="34. 6/8 Major: Raised Scale Degree 4, Outlines Tonic Triad and Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="35. 3/4 Minor: Raised Scale Degree 4" />
+
+            <Switch
+                android:id="@+id/l2m36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="36. 4/4 Major: Raised Scale Degree 4, Outlines Tonic and Subdominant Triads" />
+
+            <Switch
+                android:id="@+id/l2m37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="37. 6/8 Minor: Raised Scale Degree 4, Outlines Tonic Triad and Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="38. 2/4 Major: Raised Scale Degree 4, Outlines Dominant Triad" />
+
+            <Switch
+                android:id="@+id/l2m39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="39. 3/4 Major: Raised Scale Degree 4, Outlines Tonic Triad and Dominant 7th Chord" />
+
+            <Switch
+                android:id="@+id/l2m40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="40. 6/8 Minor: Raised Scale Degree 4, Outlines Tonic and Leading Tone Triads" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

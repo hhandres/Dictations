@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
 
-            //load fragment
         } else if (level_2.isChecked() && progressions.isChecked()) {
             Level2Harmony fragment = new Level2Harmony();
             fragmentTransaction.replace(R.id.root_layout, fragment);
@@ -95,7 +94,11 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.commit();
 
         } else if (level_3.isChecked() && rhythms.isChecked()) {
-            //load fragment
+            Level3Rhythm fragment = new Level3Rhythm();
+            fragmentTransaction.replace(R.id.root_layout, fragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+
         } else if (level_3.isChecked() && melodies.isChecked()) {
             //load fragment
         } else if (level_3.isChecked() && progressions.isChecked()) {

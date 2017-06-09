@@ -1,0 +1,392 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/level3_rhythm_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictations.Level3Rhythm">
+
+
+    <TextView
+        android:id="@+id/l3rTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Level 3 Rhythm Dictations"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/l3rScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/l3r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="1. Changing meters: 2/4 and 3/4" />
+
+            <Switch
+                android:id="@+id/l3r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="2. Changing meters: 3/4 and 4/4" />
+
+            <Switch
+                android:id="@+id/l3r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="3. Changing meters: 6/8 and 9/8" />
+
+            <Switch
+                android:id="@+id/l3r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="4. Changing meters: 6/8 and 9/8" />
+
+            <Switch
+                android:id="@+id/l3r5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="5. Changing meters: 2/4, 3/4, and 4/4" />
+
+            <Switch
+                android:id="@+id/l3r6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="6. Changing meters: 2/4 and 3/4 with sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="7. Changing meters: 6/8 and 9/8 with sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="8. Changing meters: 2/4 and 4/4 with sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="9. Changing meters: 6/8 and 9/8 with sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="10. Changing meters: 2/4, 3/4, and 4/4 with sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="11. Changing meters: 2/4 and 6/8 with constant beat value" />
+
+            <Switch
+                android:id="@+id/l3r12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="12. Changing meters: 2/4 and 6/8 with constant beat value" />
+
+            <Switch
+                android:id="@+id/l3r13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="13. Changing meters: 3/4 and 9/8 with constant beat value" />
+
+            <Switch
+                android:id="@+id/l3r14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="14. Changing meters: 3/4 and 9/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="15. Changing meters: 4/4 and 12/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="16. Changing meters: 2/4 and 6/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="17. Changing meters: 2/4 and 6/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="18. Changing meters: 3/4 and 9/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="19. Changing meters: 4/4 and 12/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="20. Changing meters: 3/4 and 9/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="21. Multiple Meter Changes: 2/4 and 6/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="22. Multiple Meter Changes: 3/4 and 9/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="23. Multiple Meter Changes: 3/4, 4/4, and 6/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="24. Multiple Meter Changes: 2/4, 6/8, and 12/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="25. Multiple Meter Changes: 2/4, 3/4, 6/8, and 12/8 with constant beat value, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="26. Changing Meters: 2/4 and 6/8 with constant eighth note" />
+
+            <Switch
+                android:id="@+id/l3r27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="27. Changing Meters: 2/4 and 6/8 with constant eighth note" />
+
+            <Switch
+                android:id="@+id/l3r28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="28. Changing Meters: 3/4 and 9/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="29. Changing Meters: 4/4 and 12/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="30. Multiple Meter Changes: 2/4 and 6/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="31. Multiple Meter Changes: 2/4 and 6/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="32. Multiple Meter Changes: 2/4, 3/4, and 9/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="33. Multiple Meter Changes: 3/4, 4/4, 6/8, and 9/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="34. Multiple Meter Changes: 2/4, 3/4, and 6/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="35. Multiple Meter Changes: 2/4, 3/4, and 6/8 with constant eighth note, includes sixteenth notes" />
+
+            <Switch
+                android:id="@+id/l3r36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="36. 2/4 Quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="37. 3/4 Quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="38. 3/4 Quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="39. 2/4 Quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="40. 4/4 Quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="41. 6/8 Dotted quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="42. 6/8 Dotted quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="43. 12/8 Dotted quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="44. 6/8 Dotted quarter note beat, includes thirty-second notes" />
+
+            <Switch
+                android:id="@+id/l3r45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dictationChosen"
+                android:padding="10dp"
+                android:text="45. 9/8 Dotted quarter note beat, includes thirty-second notes" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

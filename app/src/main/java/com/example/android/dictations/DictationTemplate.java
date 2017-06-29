@@ -25,7 +25,7 @@ public class DictationTemplate extends Fragment implements View.OnClickListener 
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.getSettings().setBuiltInZoomControls(true);
         myWebView.loadUrl(pdfUrl);
-        Toast.makeText(getActivity(), "Loading Dictation Template and Answer", Toast.LENGTH_LONG).show();
+        Toast.makeText(getActivity(), "Loading Dictation Template (Page 1) and Answer (Page 2)", Toast.LENGTH_LONG).show();
         myWebView.setWebViewClient(new WebViewClient());
 
         Button audioButton = (Button) rootView.findViewById(R.id.audio_button);

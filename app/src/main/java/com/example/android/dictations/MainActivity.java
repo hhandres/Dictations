@@ -112,7 +112,11 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.commit();
 
         } else if (level_4.isChecked() && rhythms.isChecked()) {
-            //load fragment
+            Level4Rhythm fragment = new Level4Rhythm();
+            fragmentTransaction.replace(R.id.root_layout, fragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+
         } else if (level_4.isChecked() && melodies.isChecked()) {
             //load fragment
         } else if (level_4.isChecked() && progressions.isChecked()) {

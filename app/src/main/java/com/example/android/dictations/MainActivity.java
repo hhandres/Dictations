@@ -118,8 +118,16 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.commit();
 
         } else if (level_4.isChecked() && melodies.isChecked()) {
-            //load fragment
+            Level4Melody fragment = new Level4Melody();
+            fragmentTransaction.replace(R.id.root_layout, fragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+
         } else if (level_4.isChecked() && progressions.isChecked()) {
+            Level4Harmony fragment = new Level4Harmony();
+            fragmentTransaction.replace(R.id.root_layout, fragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
 
         } else {
             Toast.makeText(getApplicationContext(), "Please choose both a level and a category", Toast.LENGTH_LONG).show();

@@ -1,23 +1,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/level3_harmony_fragment"
+    android:id="@+id/level4_melody_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.dictations.Level3Harmony">
-
+    tools:context="com.example.android.dictations.Level4Melody">
 
     <TextView
-        android:id="@+id/l3hTextView"
+        android:id="@+id/l4mTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="Level 3 Harmonic Dictations"
+        android:text="Level 4 Melodic Dictations"
         android:textAlignment="center"
         android:textSize="20sp" />
 
     <ScrollView
-        android:id="@+id/l3hScrollView"
+        android:id="@+id/l4mScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -27,325 +26,324 @@
             android:orientation="vertical">
 
             <Switch
-                android:id="@+id/l3h1"
+                android:id="@+id/l4m1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="1. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant" />
+                android:text="1. 3/4 Major: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h2"
+                android:id="@+id/l4m2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="2. Minor, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Leading Tone" />
+                android:text="2. 6/8 Major: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h3"
+                android:id="@+id/l4m3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="3. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Submediant" />
+                android:text="3. 4/4 Major: Contains raised scale degree 4 and lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h4"
+                android:id="@+id/l4m4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="4. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant" />
+                android:text="4. 3/4 Major: Contains raised scale degree 1 and lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h5"
+                android:id="@+id/l4m5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="5. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Leading Tone" />
+                android:text="5. 6/8 Major: Contains raised scale degrees 4 and 5. Contains lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h6"
+                android:id="@+id/l4m6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="6. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant" />
+                android:text="6. 4/4 Major: Contains raised scale degrees 2, 4 and 5. Contains lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h7"
+                android:id="@+id/l4m7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="7. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Submediant" />
+                android:text="7. 9/8 Major: Contains raised scale degrees 4 and 5" />
 
             <Switch
-                android:id="@+id/l3h8"
+                android:id="@+id/l4m8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="8. Minor, 7th Chords, Inversions, Tonic, Supertonic, Subdominant, Dominant" />
+                android:text="8. 3/4 Major: Contains lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h9"
+                android:id="@+id/l4m9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="9. Major, Inversions, 7th Chords, Tonic, Mediant, Subdominant, Dominant, Submediant" />
+                android:text="9. 4/4 Major: Contains raised scale degrees 1, 4 and 5" />
 
             <Switch
-                android:id="@+id/l3h10"
+                android:id="@+id/l4m10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="10. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant" />
+                android:text="10. 6/8 Major: Contains raised scale degrees 1 and 2" />
 
             <Switch
-                android:id="@+id/l3h11"
+                android:id="@+id/l4m11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="11. Major, Inversions, 7th Chords, Tonic, Dominant, Leading Tone, Secondary Dominant" />
+                android:text="11. 3/4 Minor: Contains raised scale degree 4" />
 
             <Switch
-                android:id="@+id/l3h12"
+                android:id="@+id/l4m12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="12. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Submediant, Secondary Dominant" />
+                android:text="12. 6/8 Minor: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h13"
+                android:id="@+id/l4m13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="13. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Submediant, Secondary Dominant" />
+                android:text="13. 4/4 Major: Contains raised scale degree 4 and lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h14"
+                android:id="@+id/l4m14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="14. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Submediant, Secondary Dominant" />
+                android:text="14. 3/4 Major: Contains raised scale degrees 2 and 4" />
 
             <Switch
-                android:id="@+id/l3h15"
+                android:id="@+id/l4m15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="15. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Secondary Dominant" />
+                android:text="15. 6/8 Minor: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h16"
+                android:id="@+id/l4m16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="16. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Leading Tone, Secondary Dominant" />
+                android:text="16. 2/4 Major: Contains raised scale degrees 1 and 5. Contains lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h17"
+                android:id="@+id/l4m17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="17. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Secondary Dominant" />
+                android:text="17. 6/8 Minor: No altered scale degrees other than raised 6 and 7 for minor" />
 
             <Switch
-                android:id="@+id/l3h18"
+                android:id="@+id/l4m18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="18. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant, Secondary Dominant" />
+                android:text="18. 3/4 Minor: Contains raised scale degree 4" />
 
             <Switch
-                android:id="@+id/l3h19"
+                android:id="@+id/l4m19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="19. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Submediant, Secondary Dominant" />
+                android:text="19. 4/4 Major: Contains raised scale degrees 1 and 4. Contains lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h20"
+                android:id="@+id/l4m20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="20. Minor, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Secondary Dominant" />
+                android:text="20. 6/8 Minor: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h21"
+                android:id="@+id/l4m21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="21. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Secondary Leading Tone" />
+                android:text="21. 4/4 Major: Contains raised scale degrees 2 and 4. Contains lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h22"
+                android:id="@+id/l4m22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="22. Minor, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Leading Tone, Secondary Leading Tone" />
+                android:text="22. 3/4 Minor: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h23"
+                android:id="@+id/l4m23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="23. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant, Secondary Leading Tone" />
+                android:text="23. 9/8 Minor: Contains raised scale degree 4" />
 
             <Switch
-                android:id="@+id/l3h24"
+                android:id="@+id/l4m24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="24. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Secondary Leading Tone" />
+                android:text="24. 6/8 Major: Contains raised scale degree 4" />
 
             <Switch
-                android:id="@+id/l3h25"
+                android:id="@+id/l4m25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="25. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Submediant, Secondary Leading Tone" />
+                android:text="25. 2/4 Major: Contains raised scale degree 1 and lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h26"
+                android:id="@+id/l4m26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="26. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Submediant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="26. 3/4 Minor: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h27"
+                android:id="@+id/l4m27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="27. Major, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="27. 6/8 Major: Contains raised scale degrees 1, 2, and 4. Contains lowered scale degree 7" />
 
             <Switch
-                android:id="@+id/l3h28"
+                android:id="@+id/l4m28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="28. Minor, Inversions, 7th Chords, Tonic, Mediant, Subdominant, Dominant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="28. 4/4 Major: Contains raised scale degree 4 and lowered scale degree 6" />
 
             <Switch
-                android:id="@+id/l3h29"
+                android:id="@+id/l4m29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="29. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Leading Tone, Secondary Dominant, Secondary Leading Tone" />
+                android:text="29. 3/4 Minor: Contains raised scale degrees 1 and 4" />
 
             <Switch
-                android:id="@+id/l3h30"
+                android:id="@+id/l4m30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="30. Minor, Inversions, 7th Chords, Tonic, Supertonic, Subdominant, Dominant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="30. 6/8 Minor: Contains raised scale degree 1 and lowered scale degree 2" />
 
             <Switch
-                android:id="@+id/l3h31"
+                android:id="@+id/l4m31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="31. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Submediant, Secondary Dominant" />
+                android:text="31. 4/4 Major: Contains raised scale degrees 2 and 4. Contains lowered scale degrees 2, 6, and 7" />
 
             <Switch
-                android:id="@+id/l3h32"
+                android:id="@+id/l4m32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="32. Minor, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="32. 3/4 Major: Contains raised scale degrees 2 and 4. Contains lowered scale degrees 2 and 6" />
 
             <Switch
-                android:id="@+id/l3h33"
+                android:id="@+id/l4m33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="33. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="33. 6/8 Minor: Contains raised scale degree 4 and lowered scale degree 2" />
 
             <Switch
-                android:id="@+id/l3h34"
+                android:id="@+id/l4m34"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="34. Minor, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Submediant, Secondary Leading Tone" />
+                android:text="34. 6/8 Major: Contains raised scale degrees 4 and 5. Contains lowered scale degrees 2 and 6" />
 
             <Switch
-                android:id="@+id/l3h35"
+                android:id="@+id/l4m35"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="35. Major, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="35. 2/4 Major: Contains raised scale degree 2. Contains lowered scale degrees 2 and 6" />
 
             <Switch
-                android:id="@+id/l3h36"
+                android:id="@+id/l4m36"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="36. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Submediant, Secondary Dominant, Secondary Leading Tone" />
+                android:text="36. 6/8 Minor: Contains raised scale degree 4 and lowered scale degree 2" />
 
             <Switch
-                android:id="@+id/l3h37"
+                android:id="@+id/l4m37"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="37. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Secondary Leading Tone, Lowered Submediant" />
+                android:text="37. 4/4 Major: Contains raised scale degree 2. Contains lowered scale degrees 2, 6 and 7" />
 
             <Switch
-                android:id="@+id/l3h38"
+                android:id="@+id/l4m38"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="38. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Submediant, Secondary Dominant, Lowered Submediant" />
+                android:text="38. 3/4 Minor: Contains lowered scale degree 2" />
 
             <Switch
-                android:id="@+id/l3h39"
+                android:id="@+id/l4m39"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="39. Major, Inversions, 7th Chords, Tonic, Subdominant, Dominant, Neapolitan Sixth" />
+                android:text="39. 5/8 Minor: Alternating 3 + 2 with 2 + 3 patterns. Outlines Tonic and Subdominant Triads and the Dominant 7th Chord" />
 
             <Switch
-                android:id="@+id/l3h40"
+                android:id="@+id/l4m40"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="dictationChosen"
                 android:padding="10dp"
-                android:text="40. Minor, Inversions, 7th Chords, Tonic, Supertonic, Dominant, Neapolitan Sixth" />
-
+                android:text="40. 7/8 Major: Consistent 3 + 2 + 2 pattern. No distinct chord outlining. Contains quarter and eighth notes" />
 
         </LinearLayout>
     </ScrollView>

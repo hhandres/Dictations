@@ -23,7 +23,6 @@ public class Level1Harmony extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_level1_harmony, container, false);
 
-
         Switch l1h1switch = (Switch) view.findViewById(R.id.l1h1);
         Switch l1h2switch = (Switch) view.findViewById(R.id.l1h2);
         Switch l1h3switch = (Switch) view.findViewById(R.id.l1h3);
@@ -79,7 +78,6 @@ public class Level1Harmony extends Fragment {
         Switch l1h53switch = (Switch) view.findViewById(R.id.l1h53);
         Switch l1h54switch = (Switch) view.findViewById(R.id.l1h54);
         Switch l1h55switch = (Switch) view.findViewById(R.id.l1h55);
-
 
         SharedPreferences sp = getActivity().getSharedPreferences("switchState",MODE_PRIVATE);
 
@@ -139,7 +137,6 @@ public class Level1Harmony extends Fragment {
         boolean l1h54state = sp.getBoolean("l1h54", false);
         boolean l1h55state = sp.getBoolean("l1h55", false);
 
-
         setState(l1h1state, l1h1switch);
         setState(l1h2state, l1h2switch);
         setState(l1h3state, l1h3switch);
@@ -195,7 +192,6 @@ public class Level1Harmony extends Fragment {
         setState(l1h53state, l1h53switch);
         setState(l1h54state, l1h54switch);
         setState(l1h55state, l1h55switch);
-
 
         return view;
     }

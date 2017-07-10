@@ -23,7 +23,6 @@ public class Level1Melody extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_level1_melody, container, false);
 
-
         Switch l1m1switch = (Switch) view.findViewById(R.id.l1m1);
         Switch l1m2switch = (Switch) view.findViewById(R.id.l1m2);
         Switch l1m3switch = (Switch) view.findViewById(R.id.l1m3);
@@ -94,7 +93,6 @@ public class Level1Melody extends Fragment {
         Switch l1m68switch = (Switch) view.findViewById(R.id.l1m68);
         Switch l1m69switch = (Switch) view.findViewById(R.id.l1m69);
         Switch l1m70switch = (Switch) view.findViewById(R.id.l1m70);
-
 
         SharedPreferences sp = getActivity().getSharedPreferences("switchState",MODE_PRIVATE);
 
@@ -169,7 +167,6 @@ public class Level1Melody extends Fragment {
         boolean l1m69state = sp.getBoolean("l1m69", false);
         boolean l1m70state = sp.getBoolean("l1m70", false);
 
-
         setState(l1m1state, l1m1switch);
         setState(l1m2state, l1m2switch);
         setState(l1m3state, l1m3switch);
@@ -240,7 +237,6 @@ public class Level1Melody extends Fragment {
         setState(l1m68state, l1m68switch);
         setState(l1m69state, l1m69switch);
         setState(l1m70state, l1m70switch);
-
 
         return view;
     }

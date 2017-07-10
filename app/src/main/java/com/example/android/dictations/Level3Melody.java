@@ -23,7 +23,6 @@ public class Level3Melody extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_level3_melody, container, false);
 
-
         Switch l3m1switch = (Switch) view.findViewById(R.id.l3m1);
         Switch l3m2switch = (Switch) view.findViewById(R.id.l3m2);
         Switch l3m3switch = (Switch) view.findViewById(R.id.l3m3);

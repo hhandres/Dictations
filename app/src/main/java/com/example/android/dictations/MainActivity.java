@@ -27,14 +27,17 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
+    // Loads the correct fragment based on the chosen Level and Category
     public void buttonsSelected (View view) {
 
+        // The 5 different levels (Beginner through Level 4)
         RadioButton beginner = (RadioButton) findViewById(R.id.beginner);
         RadioButton level_1 = (RadioButton) findViewById(R.id.level_1);
         RadioButton level_2 = (RadioButton) findViewById(R.id.level_2);
         RadioButton level_3 = (RadioButton) findViewById(R.id.level_3);
         RadioButton level_4 = (RadioButton) findViewById(R.id.level_4);
+
+        // The 3 categories
         RadioButton rhythms = (RadioButton) findViewById(R.id.rhythms);
         RadioButton melodies = (RadioButton) findViewById(R.id.melodies);
         RadioButton progressions = (RadioButton) findViewById(R.id.progressions);
@@ -42,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
+        // Check the chosen Level and Category and load the correct fragment
         if (beginner.isChecked() && rhythms.isChecked()) {
             BeginnerRhythm fragment = new BeginnerRhythm();
             fragmentTransaction.replace(R.id.root_layout, fragment);
@@ -142,11 +146,13 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor ed = getSharedPreferences("switchState", MODE_PRIVATE).edit();
         Bundle bundle = new Bundle();
 
+        // Get the last part of the switchID and use it to create the URLs for the dictations and the audio file
         Switch switchButton = (Switch) findViewById(view.getId());
         String rawId = getResources().getResourceName(view.getId());
         String [] splitId = rawId.split("/", 2);
         String id = splitId[1];
 
+        // Store switch state into SharedPreferences
         if (switchButton.isChecked()) {
             ed.putBoolean(id, true);
             ed.apply();
@@ -154,9 +160,12 @@ public class MainActivity extends AppCompatActivity {
             ed.putBoolean(id, false);
             ed.apply();
         }
+
+        // Store the URL of the dictation and audio file into the bundle
         bundle.putString("pdfLink", "https://docs.google.com/gview?embedded=true&url=http://sites.msudenver.edu/handres/wp-content/uploads/sites/387/2017/04/" + id.toUpperCase() + ".pdf");
         bundle.putString("audioLink", "http://sites.msudenver.edu/handres/wp-content/uploads/sites/387/2017/04/" + id.toUpperCase() + ".mp3");
 
+        // Load the Dictation Template Fragment which will open the correct dictation in the webview based on the bundled URLs
         DictationTemplate fragment = new DictationTemplate();
         fragment.setArguments(bundle);
         fragmentTransaction.replace(R.id.root_layout, fragment);

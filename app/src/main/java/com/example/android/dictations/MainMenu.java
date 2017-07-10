@@ -10,6 +10,7 @@ import android.view.ViewGroup;
  * Created by Hoyt on 4/18/2017.
  */
 
+// Placeholder class to allow multiple fragments to override the current view
 public class MainMenu extends Fragment  {
 
     @Override

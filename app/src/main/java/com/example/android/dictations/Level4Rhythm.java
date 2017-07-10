@@ -22,7 +22,6 @@ public class Level4Rhythm extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_level4_rhythm, container, false);
 
-
         Switch l4r1switch = (Switch) view.findViewById(R.id.l4r1);
         Switch l4r2switch = (Switch) view.findViewById(R.id.l4r2);
         Switch l4r3switch = (Switch) view.findViewById(R.id.l4r3);

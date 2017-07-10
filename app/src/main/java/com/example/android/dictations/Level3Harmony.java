@@ -23,7 +23,6 @@ public class Level3Harmony extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_level3_harmony, container, false);
 
-
         Switch l3h1switch = (Switch) view.findViewById(R.id.l3h1);
         Switch l3h2switch = (Switch) view.findViewById(R.id.l3h2);
         Switch l3h3switch = (Switch) view.findViewById(R.id.l3h3);
@@ -64,7 +63,6 @@ public class Level3Harmony extends Fragment {
         Switch l3h38switch = (Switch) view.findViewById(R.id.l3h38);
         Switch l3h39switch = (Switch) view.findViewById(R.id.l3h39);
         Switch l3h40switch = (Switch) view.findViewById(R.id.l3h40);
-
 
         SharedPreferences sp = getActivity().getSharedPreferences("switchState",MODE_PRIVATE);
 
@@ -108,7 +106,6 @@ public class Level3Harmony extends Fragment {
         boolean l3h38state = sp.getBoolean("l3h38", false);
         boolean l3h39state = sp.getBoolean("l3h39", false);
         boolean l3h40state = sp.getBoolean("l3h40", false);
-
 
         setState(l3h1state, l3h1switch);
         setState(l3h2state, l3h2switch);

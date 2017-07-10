@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Switch;
 
+import static android.R.attr.button;
 import static android.content.Context.MODE_PRIVATE;
 
 /**
@@ -23,7 +24,7 @@ public class BeginnerMelody extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_beginner_melody, container, false);
 
-
+        // Declare each switch button
         Switch bm1switch = (Switch) view.findViewById(R.id.bm1);
         Switch bm2switch = (Switch) view.findViewById(R.id.bm2);
         Switch bm3switch = (Switch) view.findViewById(R.id.bm3);
@@ -65,8 +66,10 @@ public class BeginnerMelody extends Fragment {
         Switch bm39switch = (Switch) view.findViewById(R.id.bm39);
         Switch bm40switch = (Switch) view.findViewById(R.id.bm40);
 
-        SharedPreferences sp = getActivity().getSharedPreferences("switchState",MODE_PRIVATE);
+        //Open shared preferences
+        SharedPreferences sp = getActivity().getSharedPreferences("switchState", MODE_PRIVATE);
 
+        //Declare a state for each switch, set each one to false as a default
         boolean bm1state = sp.getBoolean("bm1", false);
         boolean bm2state = sp.getBoolean("bm2", false);
         boolean bm3state = sp.getBoolean("bm3", false);
@@ -108,7 +111,7 @@ public class BeginnerMelody extends Fragment {
         boolean bm39state = sp.getBoolean("bm39", false);
         boolean bm40state = sp.getBoolean("bm40", false);
 
-
+        //Load the state of each switch from SharedPreferences
         setState(bm1state, bm1switch);
         setState(bm2state, bm2switch);
         setState(bm3state, bm3switch);
@@ -152,11 +155,13 @@ public class BeginnerMelody extends Fragment {
 
         return view;
     }
-    public void setState(boolean state, Switch button) {
+
+    // Sets the state of each switch based on its status in SharedPreferences
+    public void setState(boolean state, Switch slider) {
         if (state) {
-            button.setChecked(true);
+            slider.setChecked(true);
         } else {
-            button.setChecked(false);
+            slider.setChecked(false);
         }
     }
     

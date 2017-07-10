@@ -23,7 +23,6 @@ public class Level2Rhythm extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_level2_rhythm, container, false);
 
-
         Switch l2r1switch = (Switch) view.findViewById(R.id.l2r1);
         Switch l2r2switch = (Switch) view.findViewById(R.id.l2r2);
         Switch l2r3switch = (Switch) view.findViewById(R.id.l2r3);
@@ -74,11 +73,6 @@ public class Level2Rhythm extends Fragment {
         Switch l2r48switch = (Switch) view.findViewById(R.id.l2r48);
         Switch l2r49switch = (Switch) view.findViewById(R.id.l2r49);
         Switch l2r50switch = (Switch) view.findViewById(R.id.l2r50);
-        
-
-
-
-
 
         SharedPreferences sp = getActivity().getSharedPreferences("switchState",MODE_PRIVATE);
 
@@ -132,9 +126,6 @@ public class Level2Rhythm extends Fragment {
         boolean l2r48state = sp.getBoolean("l2r48", false);
         boolean l2r49state = sp.getBoolean("l2r49", false);
         boolean l2r50state = sp.getBoolean("l2r50", false);
-        
-
-
 
         setState(l2r1state, l2r1switch);
         setState(l2r2state, l2r2switch);

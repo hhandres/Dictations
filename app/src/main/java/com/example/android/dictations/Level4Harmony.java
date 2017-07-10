@@ -23,7 +23,6 @@ public class Level4Harmony extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_level4_harmony, container, false);
 
-
         Switch l4h1switch = (Switch) view.findViewById(R.id.l4h1);
         Switch l4h2switch = (Switch) view.findViewById(R.id.l4h2);
         Switch l4h3switch = (Switch) view.findViewById(R.id.l4h3);
@@ -64,7 +63,6 @@ public class Level4Harmony extends Fragment {
         Switch l4h38switch = (Switch) view.findViewById(R.id.l4h38);
         Switch l4h39switch = (Switch) view.findViewById(R.id.l4h39);
         Switch l4h40switch = (Switch) view.findViewById(R.id.l4h40);
-
 
         SharedPreferences sp = getActivity().getSharedPreferences("switchState",MODE_PRIVATE);
 
@@ -108,7 +106,6 @@ public class Level4Harmony extends Fragment {
         boolean l4h38state = sp.getBoolean("l4h38", false);
         boolean l4h39state = sp.getBoolean("l4h39", false);
         boolean l4h40state = sp.getBoolean("l4h40", false);
-
 
         setState(l4h1state, l4h1switch);
         setState(l4h2state, l4h2switch);

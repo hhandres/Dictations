@@ -13,11 +13,15 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
+// This class displays the chosen dictation in a webview, with the audio file linked to the audioButton
+// When the button is clicked, an implicit intent will open the default audio player
+
 public class DictationTemplate extends Fragment implements View.OnClickListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View rootView = inflater.inflate(R.layout.fragment_dictation_template, container, false);
         Bundle bundle = this.getArguments();
         String pdfUrl = bundle.getString("pdfLink");

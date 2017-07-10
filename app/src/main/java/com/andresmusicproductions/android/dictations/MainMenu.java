@@ -1,4 +1,4 @@
-package com.example.android.dictations;
+package com.andresmusicproductions.android.dictations;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

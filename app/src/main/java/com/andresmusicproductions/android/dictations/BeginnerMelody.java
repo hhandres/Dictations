@@ -1,4 +1,4 @@
-package com.example.android.dictations;
+package com.andresmusicproductions.android.dictations;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Switch;
 
-import static android.R.attr.button;
 import static android.content.Context.MODE_PRIVATE;
 
 /**

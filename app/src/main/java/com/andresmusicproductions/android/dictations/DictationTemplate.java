@@ -1,4 +1,4 @@
-package com.example.android.dictations;
+package com.andresmusicproductions.android.dictations;
 
 import android.content.Intent;
 import android.net.Uri;
